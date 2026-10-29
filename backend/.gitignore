@@ -1,0 +1,33 @@
+# API Key 및 환경변수
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# SQLite 데이터베이스
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# 임시 파일
+*.tmp
+*.log
+
+syllabi/
+*.db
+*.db-wal
+*.db-shm
+.env
+
+better-sqlite3
+coursefit.db
+coursefit.backup.db

@@ -1,0 +1,52 @@
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Dependencies
+**/node_modules/
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Course data
+backend/syllabi/
+backend/*.generated.json
+backend/json-import-report.json
+
+# Backups
+**/*backup*/
+**/*backup*.db
+
+# Flutter build
+**/build/
+**/.dart_tool/
+**/.flutter-plugins*
+**/.packages
+
+# Android signing
+*.jks
+*.keystore
+android/key.properties
+**/key.properties
+
+# Local files
+*.log
+
+backend/debug/
+
+# Local development
+.idea/
+applyWizardUpdate.js
+updateCoursefit.js
+backend/fixCourseCategories.js
+backend/poppler-test.txt
+backend/test-result.json
+backend/sections.json
+backend/checkPdf.js
